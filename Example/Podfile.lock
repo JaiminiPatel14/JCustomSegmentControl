@@ -1,0 +1,16 @@
+PODS:
+  - JCustomSegmentControl (1.0.0)
+
+DEPENDENCIES:
+  - JCustomSegmentControl (from `../`)
+
+EXTERNAL SOURCES:
+  JCustomSegmentControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JCustomSegmentControl: 225f7068d1d5dde8c02a485973e0df1aeb961537
+
+PODFILE CHECKSUM: f710b8606ac3fdccd375c3140f212f79588e5fda
+
+COCOAPODS: 1.16.2

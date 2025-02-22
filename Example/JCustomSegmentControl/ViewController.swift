@@ -7,18 +7,25 @@
 //
 
 import UIKit
+import JCustomSegmentControl
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Segment1: JCustomSegmentControl!
+    @IBOutlet weak var segment2: JCustomSegmentControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        Segment1.addTarget(self, action: #selector(segmentIndexChanged), for: .valueChanged)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    @objc private func segmentIndexChanged(_ sender: JCustomSegmentControl) {
+        let selectedIndex = sender.selectedSegmentIndex
+        print("Selected Segment: \(selectedIndex)")
+    }
 }
 

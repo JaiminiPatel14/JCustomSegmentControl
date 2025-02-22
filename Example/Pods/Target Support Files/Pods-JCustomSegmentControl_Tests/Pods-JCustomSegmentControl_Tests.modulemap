@@ -1,0 +1,6 @@
+framework module Pods_JCustomSegmentControl_Tests {
+  umbrella header "Pods-JCustomSegmentControl_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

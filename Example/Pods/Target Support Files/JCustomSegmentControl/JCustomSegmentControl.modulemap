@@ -1,0 +1,6 @@
+framework module JCustomSegmentControl {
+  umbrella header "JCustomSegmentControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

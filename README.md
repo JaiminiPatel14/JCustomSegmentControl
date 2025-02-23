@@ -6,6 +6,10 @@ A fully customizable and scrollable segment control for iOS, built as a UIContro
 [![License](https://img.shields.io/cocoapods/l/JCustomSegmentControl.svg?style=flat)](https://cocoapods.org/pods/JCustomSegmentControl)
 [![Platform](https://img.shields.io/cocoapods/p/JCustomSegmentControl.svg?style=flat)](https://cocoapods.org/pods/JCustomSegmentControl)
 
+## Preview
+
+![Custom Segment](JCustomSegmentControl/Assets/demo-gif.gif)
+
 
 ## Features
 

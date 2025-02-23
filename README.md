@@ -16,7 +16,7 @@ A fully customizable and scrollable segment control for iOS, built as a UIContro
 
 ## Preview
 
-<img src=".JCustomSegmentControl/Assets/demo-gif.gif" width="400" />
+<img src="JCustomSegmentControl/Assets/demo-gif.gif" width="400" />
 
 ## Requirements
 

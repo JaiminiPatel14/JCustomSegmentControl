@@ -6,6 +6,7 @@ A fully customizable and scrollable segment control for iOS, built as a UIContro
 [![License](https://img.shields.io/cocoapods/l/JCustomSegmentControl.svg?style=flat)](https://cocoapods.org/pods/JCustomSegmentControl)
 [![Platform](https://img.shields.io/cocoapods/p/JCustomSegmentControl.svg?style=flat)](https://cocoapods.org/pods/JCustomSegmentControl)
 
+
 ## Features
 
 ✅ Scrollable segment control for large datasets
@@ -35,7 +36,7 @@ pod 'JCustomSegmentControl'
 import JCustomSegmentControl
 ```
 
-2. Create an instance programmatically OR You can create from 
+2. Create an instance programmatically
 
 ```swift
 let segmentControl = JCustomSegmentControl(frame: CGRect(x: 0, y: 200, width: UIScreen().bounds.width, height: 45))

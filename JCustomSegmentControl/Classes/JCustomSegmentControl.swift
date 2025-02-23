@@ -214,7 +214,7 @@ extension JCustomSegmentControl {
     }
     /// Updates the button configuration based on the scrollability.
     private func updateButtonConfiguration() {
-        for (index, button) in buttons.enumerated() {
+        for (_, button) in buttons.enumerated() {
             if #available(iOS 15.0, *) {
                 if isScrollEnabled {
                     var config = UIButton.Configuration.plain()

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JCustomSegmentControl'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A customizable segment control with scrolling support for iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -33,10 +33,11 @@ DESC
 
   s.source_files = 'JCustomSegmentControl/Classes/**/*.{swift}'
   s.swift_version    = '5.0'
-  # s.resource_bundles = {
-  #   'JCustomSegmentControl' => ['JCustomSegmentControl/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'JCustomSegmentControl' => ['JCustomSegmentControl/Assets/*.gif']
+   }
 
+  
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

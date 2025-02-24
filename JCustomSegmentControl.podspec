@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'JCustomSegmentControl'
-    s.version          = '1.0.1'
+    s.version          = '1.0.2'
     s.summary          = 'A customizable segment control with scrolling support for iOS.'
     s.homepage         = 'https://github.com/JaiminiPatel14/JCustomSegmentControl'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }

@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
     s.name             = 'JCustomSegmentControl'
-    s.version          = '1.0.2'
+    s.version          = '1.0.3'
     s.summary          = 'A customizable segment control with scrolling support for iOS.'
     s.homepage         = 'https://github.com/JaiminiPatel14/JCustomSegmentControl'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'JaiminiPatel14' => 'jaiminibhensdadiya1996@gmail.com' }
+    s.author           = { 'Jaimini Patel' => 'jaiminibhensdadiya1996@gmail.com' }
     s.source           = { :git => 'https://github.com/JaiminiPatel14/JCustomSegmentControl.git', :tag => s.version }
     s.source_files = 'JCustomSegmentControl/Classes/**/*.{swift}'
     s.resource_bundles = {
